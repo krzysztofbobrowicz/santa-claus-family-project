@@ -1,0 +1,54 @@
+:root {
+  --dark-gray: #1e2625;
+  --light-gray: #828c84;
+  --beige: #9f7453;
+  --lighter-red: #d02a2a;
+  --claret: #6c0503;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--light-gray);
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.btn {
+  padding: 0.8rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  margin: 0.5rem;
+  background-color: var(--dark-gray);
+  color: white;
+}
+
+input {
+  padding: 0.8rem;
+  min-width: 250px;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  background-color: #6c0503;
+}
+
+.add-people {
+  text-align: center;
+}
